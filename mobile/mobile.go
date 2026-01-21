@@ -9,6 +9,7 @@ import (
 	"github.com/metacubex/mihomo/hub"
 	"github.com/metacubex/mihomo/hub/executor"
 	"github.com/metacubex/mihomo/log"
+	_ "golang.org/x/mobile/bind"
 )
 
 // Start starts the mihomo kernel with the given home directory and configuration string.
