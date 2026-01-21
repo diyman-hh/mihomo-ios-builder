@@ -2,7 +2,7 @@ name: Build iOS XCFramework
 
 on:
   push:
-    branches: [ "Meta" ]
+    branches: [ "main" ]
   workflow_dispatch:
 
 jobs:
