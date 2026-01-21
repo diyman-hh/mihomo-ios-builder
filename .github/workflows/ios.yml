@@ -23,6 +23,8 @@ jobs:
 
       - name: Build XCFramework
         run: |
+          go get golang.org/x/mobile/bind
+          go mod tidy
           gomobile bind -target=ios -o Mihomo.xcframework ./mobile
 
       - name: Upload Artifact
